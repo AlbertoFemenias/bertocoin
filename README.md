@@ -63,7 +63,6 @@ Para ello, siga las instrucciones del fabricante de su sistema operativo.
     Enlaces de descarga: 
     
     - [Python 3.60](https://www.python.org/downloads/release/python-360/)
-    
     - [Otras versiones](https://www.python.org/downloads/)
 
 2. Si no está instalado previamente, se requiere instalar el paquete de Python **ecdsa**. 
