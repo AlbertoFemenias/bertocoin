@@ -21,7 +21,8 @@ En consecuencia, en la actualidad no es fácil adquirir una moneda Bitcoin de un
 Para fabricar tu moneda necesitarás:
 
 ### Software
-1. Intérprete Python 3.6 o superior
+1. Intérprete Python 3.6 o superior. 
+  - Dependencias: ecdsa (Instalar con pip ecdsa).
 2. MonedaBitcon.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
 3. Entropy.txt. Un fichero de texto plano que contiene una cadena SECRETA de texto que se utilizará para generar las claves privadas y públicas de las moneda.
 
