@@ -24,7 +24,7 @@ Para fabricar tu moneda necesitarás:
 1. Intérprete Python 2.7 superior. 
    - Dependencias: 
 
-     **ecdsa** (Utilizado para el 
+     **ecdsa** (Utilizado para los cálculos criptográficos)
 
      Instalar con:
   ```pip install ecdsa```
