@@ -23,6 +23,7 @@ Para fabricar tu moneda necesitarás:
 ### Software
 1. Intérprete Python 3.6 o superior. 
    - Dependencias: ecdsa 
+
      Instalar con:
   ```pip install ecdsa```
 2. MonedaBitcon.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
