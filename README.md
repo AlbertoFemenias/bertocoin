@@ -110,8 +110,6 @@ se generarán en el directorio de trabajo los siguientes archivos de imágenes e
      Coin_0001_PUBLIC_1HVhwf9FjE8LEmiMpzrBFHeJGgGU6nx73Z.png
      Coin_0002_PRIVATE_5K642EAjm4v89gQ3KUGQCwVnJcp54GYFcdcmE7xaAb2T1QFTxse.png
      Coin_0002_PUBLIC_1KUaptkkyRUq6tKo5Ace5UJrWHhakeWRox.png
-     Coin_0003_PRIVATE_5JrRwCmRcevwGhsWsPYbkJcwkFe6utfEJaQ5NsZHeEoynFBFvmT.png
-     Coin_0003_PUBLIC_18AERACD8AVzJsweEZrvYDKR4e8eekfBhY.png
 ```
 
 
@@ -122,8 +120,18 @@ se generarán en el directorio de trabajo los siguientes archivos de imágenes e
 > Este ejemplo solamente se ofrece para que el usuario verifique el funcionamiento del software.
 > En **NINGUN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
 
+Para cada moneda, se generan dos ficheros de imagen, que siguen el siguiente formato:
 
+Coin_**XXXX**_PRIVATE_**Clave-privada**.png
+y
+Coin_**XXXX**_PUBLIC_**Direccion-publica**.png
 
+Donde:
+
+   **XXXX** es el número de serie de la moneda, empezando en 0000
+   **Clave_privada** es la clave privada de la moneda, en formato Base54
+   **Direccion_publica** es la dirección pública asocaida a la moneda, en formato Base54.
+   
 
 
 
