@@ -1,4 +1,4 @@
-# 3D-Bitcoin coin
+# bertocoin - Su propia moneda Bitcoin 3D
 Fabrica tu propia moneda Bitcoin con una impresora 3D doméstica.
 <p align="left">
   <img src="./imagenes/albercoin_01.png">
