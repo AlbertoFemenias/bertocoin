@@ -61,7 +61,7 @@ La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm
 Para ello, siga las instrucciones del fabricante de su sistema operativo.
 
     Enlaces de descarga: 
-
+    [Python 3.60](https://www.python.org/downloads/release/python-360/)
     [Python 3.70](https://www.python.org/downloads/release/python-370/)
 
 2. Si no está instalado previamente, se requiere instalar el paquete de Pyton **ecdsa**. 
