@@ -116,7 +116,7 @@ se generarán en el directorio de trabajo los siguientes archivos de imágenes e
 > :warning: **ATENCIÓN**
 >
 > Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
-> De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
+> De no hacerlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 > Este ejemplo solamente se ofrece para que el usuario verifique el funcionamiento del software.
 > En **NINGÚN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
 
