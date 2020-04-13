@@ -28,7 +28,7 @@ Para fabricar tu moneda necesitarás:
 > :warning: **MUY IMPORTANTE**: Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto
 > secreto.De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 
-> **ATENCIÓN**
+> :warning: **ATENCIÓN**
 >
 > Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
 > De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
