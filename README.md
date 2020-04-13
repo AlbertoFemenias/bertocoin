@@ -66,7 +66,7 @@ Para ello, siga las instrucciones del fabricante de su sistema operativo.
     
     - [Otras versiones](https://www.python.org/downloads/)
 
-2. Si no está instalado previamente, se requiere instalar el paquete de Pyton **ecdsa**. 
+2. Si no está instalado previamente, se requiere instalar el paquete de Python **ecdsa**. 
 Para ello, puede utilizarse el siguiente comando:
 
      ```pip install ecdsa```
