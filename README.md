@@ -30,6 +30,7 @@ Para fabricar tu moneda necesitarás:
 > Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
 > De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 4. Un programa de diseño gráfico, tal como Adobe Photoshop, Adobe Illustrator, Google Docs, GIMP, etc.
+
 Este programa se usará para componer el documento que contiene las claves y códigos QR.
 
 
