@@ -25,8 +25,6 @@ Para fabricar tu moneda necesitarás:
 2. MonedaBitcon.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
 3. Entropy.txt. Un fichero de texto plano que contiene una cadena SECRETA de texto que se utilizará para generar las claves privadas y públicas de las moneda.
 
-> :warning: **MUY IMPORTANTE**: Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto
-> secreto.De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 
 > :warning: **ATENCIÓN**
 >
@@ -36,4 +34,15 @@ Para fabricar tu moneda necesitarás:
 
 Este programa se usará para componer el documento que contiene las claves y códigos QR.
 
+### Hardware
+1. Impresora 3D de filamento. 
+Se utiliza para imprimir la carcasa de la moneda. 
+Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o similar es perfectamente válida.
+Notas: 
+- Debido al proceso de colocación de insertos dentro de la moneda, NO se pueden utilizar impresoras de resina.
+- Se recomienda utilizar plástico PLA.
+- El diseño está optimizado para un cabezal extrusor de 0.4 mm.
+
+2. Impresora Láser/Inyección de tinta.
+3. Papel
 
