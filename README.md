@@ -35,7 +35,7 @@ Para fabricar tu moneda necesitarás:
 > :warning: **ATENCIÓN**
 >
 > Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
-> De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
+> De no hacerlo así, es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 
 4. Un programa de diseño gráfico, tal como Adobe Photoshop, Adobe Illustrator, Google Docs, GIMP, etc.
 
@@ -72,8 +72,8 @@ Para ello, siga las instrucciones del fabricante de su sistema operativo.
 
 Para ello, pueden utilizarse los siguientes comandos:
 
-     ```pip2.7 install ecdsa```
-     ```pip2.7 install pyqrcode```
+     pip2.7 install ecdsa
+     pip2.7 install pyqrcode
 
 3. Descargar el script de este repositorio denominado 'bertocoin.py' y el fichero de entropia 'entropia.txt' y colocar ambos en un mismo directorio.
 
@@ -122,15 +122,15 @@ se generarán en el directorio de trabajo los siguientes archivos de imágenes e
 
 Para cada moneda, se generan dos ficheros de imagen, que siguen el siguiente formato:
 
-Coin_**XXXX**_PRIVATE_**Clave-privada**.png
-y
-Coin_**XXXX**_PUBLIC_**Direccion-publica**.png
+     ```Coin_XXXX_PRIVATE_Clave-privada.png```
+      y
+     ```Coin_XXXX_PRIVATE_Dirección-pública.png``` 
 
 Donde:
 
    **XXXX** es el número de serie de la moneda, empezando en 0000
    **Clave_privada** es la clave privada de la moneda, en formato Base54
-   **Direccion_publica** es la dirección pública asocaida a la moneda, en formato Base54.
+   **Dirección_pública** es la dirección pública asocaida a la moneda, en formato Base54.
    
 
 
