@@ -21,8 +21,10 @@ En consecuencia, en la actualidad no es fácil adquirir una moneda Bitcoin de un
 Para fabricar tu moneda necesitarás:
 
 ### Software
-1. Intérprete Python 3.6 o superior. 
-   - Dependencias: ecdsa 
+1. Intérprete Python 2.7 superior. 
+   - Dependencias: 
+
+     **ecdsa** (Utilizado para el 
 
      Instalar con:
   ```pip install ecdsa```
@@ -62,7 +64,7 @@ Para ello, siga las instrucciones del fabricante de su sistema operativo.
 
     Enlaces de descarga: 
     
-    - [Python 3.60](https://www.python.org/downloads/release/python-360/)
+    - [Python 2.70](https://www.python.org/downloads/release/python-270/)
     - [Otras versiones](https://www.python.org/downloads/)
 
 2. Si no está instalado previamente, se requiere instalar el paquete de Python **ecdsa**. 
