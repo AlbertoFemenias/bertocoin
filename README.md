@@ -118,19 +118,19 @@ se generarán en el directorio de trabajo los siguientes archivos de imágenes e
 > Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
 > De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 > Este ejemplo solamente se ofrece para que el usuario verifique el funcionamiento del software.
-> En **NINGUN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
+> En **NINGÚN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
 
 Para cada moneda, se generan dos ficheros de imagen, que siguen el siguiente formato:
 
-     ```Coin_XXXX_PRIVATE_Clave-privada.png```
+     Coin_XXXX_PRIVATE_Clave-privada.png
       y
-     ```Coin_XXXX_PRIVATE_Dirección-pública.png``` 
+     Coin_XXXX_PRIVATE_Dirección-pública.png 
 
 Donde:
 
-   **XXXX** es el número de serie de la moneda, empezando en 0000
-   **Clave_privada** es la clave privada de la moneda, en formato Base54
-   **Dirección_pública** es la dirección pública asocaida a la moneda, en formato Base54.
+   - **XXXX** es el número de serie de la moneda, empezando en 0000
+   - **Clave_privada** es la clave privada de la moneda, en formato Base54
+   - **Dirección_pública** es la dirección pública asocaida a la moneda, en formato Base54.
    
 
 
