@@ -132,6 +132,17 @@ Donde:
    - **Clave_privada** es la clave privada de la moneda, en formato Base54
    - **Dirección_pública** es la dirección pública asocaida a la moneda, en formato Base54.
    
+7. Impresión de códigos.
+Para imprimir los códigos, se importarán los ficheros .png en la plantila suministrada, reemplazando ambos códigos en la misma imagen de la moneda.
+
+La plantilla tiene el nombre ```bertocoin.ai```y contiene un diseño como el que se muestra en la siguiente imagen:
+
+<p align="left">
+  <img src="./imagenes/bertocoin-ai-ejemplo.png">
+</p>
+
+Nota: Deben reemplazarse tanto los códigos QR como los valores correspondientes de las claves en formato texto.
+   
 
 
 
