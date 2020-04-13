@@ -56,12 +56,18 @@ El diseño prevé la inserción de una arandela metálica para darle total opaci
 La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm.
 
 ## Uso del software
-En caso de que el ordenador no cuente con un intérprete de Python 3.6 o superior, es preciso comenzar por instalarlo.
+
+1. En caso de que el ordenador no cuente con un intérprete de Python 3.6 o superior, es preciso comenzar por instalarlo.
 Para ello, siga las instrucciones del fabricante de su sistema operativo.
 
 Enlaces de descarga: 
 
 [Python 3.70](https://www.python.org/downloads/release/python-370/)
+
+2. Si no está instalado previamente, se requiere instalar el paquete de Pyton **ecdsa**. 
+Para ello, puede utilizarse el siguiente comando:
+
+  ```pip install ecdsa```
 
 
 
