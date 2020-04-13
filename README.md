@@ -25,7 +25,7 @@ Para fabricar tu moneda necesitarás:
 2. MonedaBitcon.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
 3. Entropy.txt. Un fichero de texto plano que contiene una cadena SECRETA de texto que se utilizará para generar las claves privadas y públicas de las moneda.
 
-> ATENCIÓN
+> **ATENCIÓN**
 > Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
 > De no hacderlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
 4. Un programa de diseño gráfico, tal como Adobe Photoshop, Adobe Illustrator, Google Docs, GIMP, etc.
