@@ -68,11 +68,12 @@ Para ello, siga las instrucciones del fabricante de su sistema operativo.
     - [Python 2.70](https://www.python.org/downloads/release/python-270/)
     - [Otras versiones](https://www.python.org/downloads/)
 
-2. Si no están instalados previamente, se requiere instalar los paquetes de Python **ecdsa** y **pyqrcode**. 
+2. Si no están instalados previamente, se requiere instalar los paquetes de Python **ecdsa**, **pypng** y **pyqrcode**. 
 
 Para ello, pueden utilizarse los siguientes comandos:
 
      pip2.7 install ecdsa
+     pip2.7 install.pypng
      pip2.7 install pyqrcode
 
 3. Descargar el script de este repositorio denominado 'bertocoin.py' y el fichero de entropia 'entropia.txt' y colocar ambos en un mismo directorio.
