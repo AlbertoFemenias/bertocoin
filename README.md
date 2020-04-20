@@ -43,7 +43,7 @@ Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o sim
    - El diseño está optimizado para un cabezal extrusor de 0.4 mm.
 
 2. Impresora Láser/Inyección de tinta.
-Se puede utilizar cualquier impresora láser de calidad doméstica. Respecto a las impresoras de inyección de tinta se recomienda utilizar tinta original y consultar la duración de la impresión en las características técnicas de durabilidad del fabricante.
+Se puede utilizar cualquier impresora láser de calidad doméstica. Se recomienda utilizar tinta/tóner original y consultar la duración de la impresión en las características técnicas de durabilidad del fabricante.
 
 3. Papel A4.
 Se recomienda utilizar papel blanco o amarillo de oficina con un gramaje de 90 gr/m2 ó superior.
