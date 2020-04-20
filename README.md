@@ -21,7 +21,7 @@ En consecuencia, en la actualidad no es fácil adquirir una moneda Bitcoin de un
 Para fabricar tu moneda necesitarás:
 
 ### Software
-1. Intérprete Python 2.7 superior. 
+1. Intérprete Python 2.7. 
    - Dependencias: 
 
      - **ecdsa** (Utilizado para los cálculos criptográficos)
