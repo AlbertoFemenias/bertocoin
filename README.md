@@ -100,7 +100,9 @@ Este es un fichero, en formato PostScript Encapsulado, que contiene una hoja con
 > De no hacerlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin si algún actor malicisioso
 > accede a la información contenida en este directorio.
 >
-> En **NINGÚN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
+> La clave privada se generará a partir de una semilla de texto generada aleatoriamente por el programa.
+> Si desea facilitar su propia semilla, puede utilizar la opción correspondiente.
+> Para conoceer todas las opciones permitidas, lance el script con la opción -h.
    
 ## Impresión y colocación de la carátula impresa
 
