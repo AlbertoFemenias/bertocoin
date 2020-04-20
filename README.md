@@ -36,6 +36,7 @@ Para fabricar tu moneda necesitarás:
 1. Impresora 3D de filamento. 
 Se utiliza para imprimir la carcasa de la moneda. 
 Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o similar es perfectamente válida.
+
 Notas: 
    - Debido al proceso de colocación de insertos dentro de la moneda, NO se pueden utilizar impresoras de resina.
    - Se recomienda utilizar plástico PLA.
