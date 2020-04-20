@@ -67,19 +67,12 @@ Para ello, siga las instrucciones del fabricante de su sistema operativo.
 Para ello, pueden utilizarse los siguientes comandos:
 
      pip2.7 install ecdsa
-     pip2.7 install.pypng
+     pip2.7 install pypng
      pip2.7 install pyqrcode
 
 3. Descargar el script de este repositorio denominado 'bertocoin.py' y el fichero de entropia 'entropia.txt' y colocar ambos en un mismo directorio.
-
-
-5. Editar el fichero 'entropia.txt' con un editor de texto plano, tal como Notepad en Windows o TextEdit en OS X y reemplazar el contenido por una cadena SECRETA de caracteres.
-Es recomendable que la cadena contenga suficiente entropía como para que sea difícil de adivinar.
-Siga las recomendaciones habituales que se recommiendan para generar claves secretas, tales como:
-   - Tamaño: 20 posiciones o más
-   - Caracteres: Utilice una mezcla de mayúsculas, minúsculas y símbolos especiales
    
-5. Desde ese directorio lanzar el siguiente comando:
+4. Desde ese directorio lanzar el siguiente comando:
 
    ```python2.7 bertocoin.py```
 
@@ -91,7 +84,7 @@ Siga las recomendaciones habituales que se recommiendan para generar claves secr
 >           **python2.7 bertocoin.py -h<**
        
        
-6. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
+5. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
 Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con las instrucciones y la imagen que debemos imprimir y colocar dentro de la moneda 3D.
 
 
