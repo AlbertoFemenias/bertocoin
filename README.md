@@ -79,11 +79,12 @@ Para ello, pueden utilizarse los siguientes comandos:
    ```python2.7 bertocoin.py```
 
 
->     **Nota:** 
+
 >           Es posible especificar varias opciones para conseguir un mayor 
 >           control sobre la generación de los datos de la moneda. 
 >           Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
->           **python2.7 bertocoin.py -h<**
+
+            python2.7 bertocoin.py -h
        
        
 5. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
