@@ -111,7 +111,7 @@ Aquí podemos ver una imagen de un fichero de ejemplo:
   <img src="./imagenes/bertocoin_print-me_ejemplo.png">
 </p>
 
-Es importante imprimir esta hoja y recortarlo siguiendo las instrucciones que aparecen en la misma **antes** de iniciar el proceso de impresión 3D de la moneda.
+Es preciso imprimir esta hoja y recortar la carátula **antes** de iniciar el proceso de impresión 3D de la moneda.
 
 Una vez impresa y recortada la carátula, se deberá utilizar la lámina transparente de metacrilato y recortar una pieza en forma de hexágono de las mismas dimensiones que la carátula que acabamos de imprimir.
 
