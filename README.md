@@ -72,7 +72,7 @@ Para ello, pueden utilizarse los siguientes comandos:
      pip2.7 install pypng
      pip2.7 install pyqrcode
 
-3. Descargar el script de este repositorio denominado 'bertocoin.py' y el fichero de entropia 'entropia.txt' y colocar ambos en un mismo directorio.
+3. Descargar el script de este repositorio denominado 'bertocoin.py' en un directorio donde el usuario cuente con permisos de escritura.
    
 4. Desde ese directorio lanzar el siguiente comando:
 
