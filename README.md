@@ -44,13 +44,15 @@ Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o sim
 
 2. Impresora Láser/Inyección de tinta.
 Se puede utilizar cualquier impresora láser de calidad doméstica. Respecto a las impresoras de inyección de tinta se recomienda utilizar tinta original y consultar la duración de la impresión en las características técnicas de durabilidad del fabricante.
+
 3. Papel A4.
 Se recomienda utilizar papel blanco o amarillo de oficina con un gramaje de 90 gr/m2 ó superior.
+
 4. Arandela.
 El diseño prevé la inserción de una arandela metálica para darle total opacidad a la clave secreta guardada en el interior.
 La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm.
 
-5.- Lámina de metacritalo transparente de 1 mm de espesor.
+5. Lámina de metacritalo transparente de 1 mm de espesor.
 
 ## Uso del software
 
@@ -116,8 +118,8 @@ Una vez impresa y recortada la carátula, se deberá utilizar la lámina transpa
 El impresor deberá pausar la impresión de la moneda 3D aproximadamente a la mitad del proceso.
 Entonces, se introducirán, en este orden:
 
-1.- La pieza hexagonal de metacrilato.
-2.- La carátula plegada, siguiendo las instrucciones de la hoja impresa, y dejando visible la cara identificada como "COIN_XXXX_PUBLIC".
-3.- La arandela metálica, que proporciona opacidad a la clave privada, inserta en la moneda, y fija la carátula para asegurar que se mantiene en su sitio al continuar con el proceso de impresión 3D.
+1. La pieza hexagonal de metacrilato.
+2. La carátula plegada, siguiendo las instrucciones de la hoja impresa, y dejando visible la cara identificada como "COIN_XXXX_PUBLIC".
+3. La arandela metálica, que proporciona opacidad a la clave privada, inserta en la moneda, y fija la carátula para asegurar que se mantiene en su sitio al continuar con el proceso de impresión 3D.
 
 Una vez colocados los tres insertos, se continuará con la impresión de la moneda 3D.
