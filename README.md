@@ -44,9 +44,9 @@ Notas:
 
 2. Impresora Láser/Inyección de tinta.
 Se puede utilizar cualquier impresora láser de calidad doméstica. Respecto a las impresoras de inyección de tinta se recomienda utilizar tinta original y consultar la duración de la impresión en las características técnicas de durabilidad del fabricante.
-3. Papel A4
-Se recomienda utilizar papel blanco o amarillo de oficina con un gramaje de 100 gr/m2.
-4. Arandela
+3. Papel A4.
+Se recomienda utilizar papel blanco o amarillo de oficina con un gramaje de 90 gr/m2 ó superior.
+4. Arandela.
 El diseño prevé la inserción de una arandela metálica para darle total opacidad a la clave secreta guardada en el interior.
 La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm.
 
@@ -128,7 +128,3 @@ Entonces, se introducirán, en este orden:
 3.- La arandela metálica, que proporciona opacidad a la clave privada, inserta en la moneda, y fija la carátula para asegurar que se mantiene en su sitio al continuar con el proceso de impresión 3D.
 
 Una vez colocados los tres insertos, se continuará con la impresión de la moneda 3D.
-
-
-
-
