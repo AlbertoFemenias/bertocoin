@@ -58,6 +58,8 @@ Se recomienda utilizar papel blanco o amarillo de oficina con un gramaje de 100 
 El diseño prevé la inserción de una arandela metálica para darle total opacidad a la clave secreta guardada en el interior.
 La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm.
 
+5.- Lámina de metacritalo transparente de 1 mm de espesor.
+
 ## Uso del software
 
 1. En caso de que el ordenador no cuente con un intérprete de Python 2.7, es preciso comenzar por instalarlo.
@@ -106,12 +108,29 @@ Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con 
 > Este ejemplo solamente se ofrece para que el usuario verifique el funcionamiento del software.
 >
 > En **NINGÚN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
-
-
    
-## Impresión del fichero _print-me.eps_
+## Impresión y colocación de la carátula impresa
 
-La impresión de los códigos contenidos en el fichero
+El ficheero _print-me.eps_ contiene una carátula recortable que se ha de insertar dentro de la moneda 3D .
+En la siguiente imagen, podemos ver una imagen de un fichero de ejemplo:
+
+<p align="left">
+  <img src="./imagenes/bertocoin_print-me_ejemplo.png">
+</p>
+
+Es importante imprimir esta hoja y recortarlo siguiendo las instrucciones que aparecen en la misma **antes** de iniciar el proceso de impresión 3D de la moneda.
+
+Una vez impresa y recortada la carátula, se deberá utilizar la lámina transparente de metacrilato y recortar una pieza en forma de hexágono de las mismas dimensiones que la carátula que acabamos de imprimir.
+
+El impresor deberá pausar la impresión de la moneda 3D aproximadamente a la mitad del proceso.
+Entonces, se introducirán, en este orden:
+
+1.- La pieza hexagonal de metacrilato.
+2.- La carátula plegada, siguiendo las instrucciones de la hoja impresa, y dejando visible la cara identificada como "COIN_XXXX_PUBLIC".
+3.- La arandela metálica, que proporciona opacidad a la clave privada, inserta en la moneda, y fija la carátula para asegurar que se mantiene en su sitio al continuar con el proceso de impresión 3D.
+
+Una vez colocados los tres insertos, se continuará con la impresión de la moneda 3D.
+
 
 
 
