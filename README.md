@@ -24,11 +24,9 @@ Para fabricar tu moneda necesitarás:
 1. Intérprete Python 2.7 superior. 
    - Dependencias: 
 
-     **ecdsa** (Utilizado para los cálculos criptográficos)
-
-     **pyqrcode** (Utilizado para la generación de los códigos QR de la moneda)
-
-     **pypng** (Utilizado por pyqrcode para generar el fichero png)
+     - **ecdsa** (Utilizado para los cálculos criptográficos)
+     - **pyqrcode** (Utilizado para la generación de los códigos QR de la moneda)-
+     - **pypng** (Utilizado por pyqrcode para generar el fichero png)
 
 
 2. bertocoin.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
