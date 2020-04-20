@@ -113,6 +113,12 @@ Aquí podemos ver una imagen de un fichero de ejemplo:
   <img src="./imagenes/bertocoin_print-me_ejemplo.png">
 </p>
 
+La carátula tiene la siguiente forma:
+
+<p align="left">
+  <img src="./imagenes/bertocoin_caratula_ejemplo.png">
+</p>
+
 Es preciso imprimir esta hoja y recortar la carátula **antes** de iniciar el proceso de impresión 3D de la moneda.
 
 Una vez impresa y recortada la carátula, se deberá utilizar la lámina transparente de metacrilato y recortar una pieza en forma de hexágono de las mismas dimensiones que la carátula que acabamos de imprimir.
