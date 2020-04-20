@@ -95,7 +95,7 @@ Nota: Es posible especificar varias opciones para conseguir un mayor control sob
 Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
 
    ```python2.7 bertocoin.py -h```
-     
+       
        
 6. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
 Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con las instrucciones y la imagen que debemos imprimir y colocar dentro de la moneda 3D.
