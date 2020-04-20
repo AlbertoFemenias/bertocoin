@@ -102,7 +102,7 @@ Este es un fichero, en formato PostScript Encapsulado, que contiene una hoja con
 >
 > La clave privada se generará a partir de una semilla de texto generada aleatoriamente por el programa.
 > Si desea facilitar su propia semilla, puede utilizar la opción correspondiente.
-> Para conoceer todas las opciones permitidas, lance el script con la opción -h.
+> Para conocer todas las opciones disponibles, lance el script con la opción -h.
    
 ## Impresión y colocación de la carátula impresa
 
