@@ -37,7 +37,7 @@ Para fabricar tu moneda necesitarás:
 Se utiliza para imprimir la carcasa de la moneda. 
 Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o similar es perfectamente válida.
 
-Notas: 
+    Notas: 
    - Debido al proceso de colocación de insertos dentro de la moneda, NO se pueden utilizar impresoras de resina.
    - Se recomienda utilizar plástico PLA.
    - El diseño está optimizado para un cabezal extrusor de 0.4 mm.
