@@ -131,3 +131,11 @@ Entonces, se introducirán, en este orden:
 3. La arandela metálica, que proporciona opacidad a la clave privada, inserta en la moneda, y fija la carátula para asegurar que se mantiene en su sitio al continuar con el proceso de impresión 3D.
 
 Una vez colocados los tres insertos, se continuará con la impresión de la moneda 3D.
+
+Para mayor información, descargue y lea atentamente este fichero PDF: "Bertocoin - Manual de Impresión de la Moneda 3D".
+
+## Uso de la moneda
+
+Las instrucciones sobre cómo utilizar la moneda, se encuentran en el siguiente fichero PDF: "Bertocoin - Manual del Usuario".
+
+
