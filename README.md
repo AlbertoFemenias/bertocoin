@@ -26,20 +26,11 @@ Para fabricar tu moneda necesitarás:
 
      **ecdsa** (Utilizado para los cálculos criptográficos)
      **pyqrcode** (Utilizado para la generación de los códigos QR de la moneda)
+     **pypng** (Utilizado por pyqrcode para generar el fichero png)
 
 
-2. MonedaBitcon.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
-3. Entropy.txt. Un fichero de texto plano que contiene una cadena SECRETA de texto que se utilizará para generar las claves privadas y públicas de las moneda.
+2. bertocoin.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
 
-
-> :warning: **ATENCIÓN**
->
-> Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
-> De no hacerlo así, es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
-
-4. Un programa de diseño gráfico, tal como Adobe Photoshop, Adobe Illustrator, Google Docs, GIMP, etc.
-
-Este programa se usará para componer el documento que contiene las claves y códigos QR.
 
 ### Hardware
 1. Impresora 3D de filamento. 
@@ -92,10 +83,11 @@ Siga las recomendaciones habituales que se recommiendan para generar claves secr
    ```python2.7 bertocoin.py```
 
 
->     Nota: Es posible especificar varias opciones para conseguir un mayor control sobre la generación de los datos de la moneda. 
-     Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
-
-   ```python2.7 bertocoin.py -h```
+>     Nota: 
+>           Es posible especificar varias opciones para conseguir un mayor 
+>           control sobre la generación de los datos de la moneda. 
+>           Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
+>           ```python2.7 bertocoin.py -h```
        
        
 6. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
