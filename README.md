@@ -25,7 +25,9 @@ Para fabricar tu moneda necesitarás:
    - Dependencias: 
 
      **ecdsa** (Utilizado para los cálculos criptográficos)
+
      **pyqrcode** (Utilizado para la generación de los códigos QR de la moneda)
+
      **pypng** (Utilizado por pyqrcode para generar el fichero png)
 
 
