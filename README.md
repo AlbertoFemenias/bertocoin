@@ -91,6 +91,11 @@ Siga las recomendaciones habituales que se recommiendan para generar claves secr
 
      ```python2.7 bertocoin.py```
      
+Nota: Es posible especificar varias opciones para conseguir un mayor control sobre la generación de los datos de la moneda.
+Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
+
+     ```python2.7 bertocoin.py -h```
+     
        
 6. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
 Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con las instrucciones y la imagen que debemos imprimir y colocar dentro de la moneda 3D.
@@ -104,8 +109,7 @@ Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con 
 > Si por alguna razón, el borrado automático no funcionase, es **imperativo borrar manualmente** el 
 > directorio **delete-me** y todo su contenido.
 > De no hacerlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin si algún actor malicisioso
-> accediese a la información contenida en este directorio.
-> Este ejemplo solamente se ofrece para que el usuario verifique el funcionamiento del software.
+> accede a la información contenida en este directorio.
 >
 > En **NINGÚN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
    
