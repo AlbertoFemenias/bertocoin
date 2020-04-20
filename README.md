@@ -112,7 +112,7 @@ Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con 
 ## Impresión y colocación de la carátula impresa
 
 El fichero _print-me.eps_ contiene una carátula recortable que se ha de insertar dentro de la moneda 3D .
-En la siguiente imagen, podemos ver una imagen de un fichero de ejemplo:
+Aquí podemos ver una imagen de un fichero de ejemplo:
 
 <p align="left">
   <img src="./imagenes/bertocoin_print-me_ejemplo.png">
