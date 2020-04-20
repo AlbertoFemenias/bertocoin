@@ -87,65 +87,31 @@ Siga las recomendaciones habituales que se recommiendan para generar claves secr
    
 5. Desde ese directorio lanzar el siguiente comando:
 
-     ```python2.7 bertocoin.py numserie cantidad```
+     ```python2.7 bertocoin.py```
      
-     Donde __numserie__ se reemplazará por el número de serie deseado para la moneda inicial y __cantidad__ se reemplazará por el número de monedas que se desean generar.
-     
-     Por ejemplo, para generar las monedas 000 a 010 se lanzará el siguiente comando:
-     ```python2.7 bertocoin.py 0 10```
        
-6. Una vez lanzado el programa, si la ejecución fue correcta, aparecerán en el mismo directorio una serie de ficheros que contienen las imágenes de los códigos QRs de las monedas que han sido generadas.
-
-Por ejemplo, si la ejecución se realiza cuando el contenido del fichero 'entropia.txt' es:
-
-```SECRET_COIN_SEED:[Replace.With.Your.Own.PassPhrase].```
-y lanzando el siguiente comando:
-
-```python2.7 bertocoin.py 0 3```
-se generarán en el directorio de trabajo los siguientes archivos de imágenes en formato PNG:
-
-```
-     Coin_0000_PRIVATE_5HrRfEb1p6yNdwTP16KzbGVfxxoQNWdP4QjPdfd4nvE8HdBNEf2.png
-     Coin_0000_PUBLIC_1AZXC44ZCpBmkHazPyRK84hkiQT7VePk5h.png
-     Coin_0001_PRIVATE_5JXgki5kC45TsAwouQ3Z8b7xPZHGyJSVkJuTvDWVWoEceTRhe1u.png
-     Coin_0001_PUBLIC_1HVhwf9FjE8LEmiMpzrBFHeJGgGU6nx73Z.png
-     Coin_0002_PRIVATE_5K642EAjm4v89gQ3KUGQCwVnJcp54GYFcdcmE7xaAb2T1QFTxse.png
-     Coin_0002_PUBLIC_1KUaptkkyRUq6tKo5Ace5UJrWHhakeWRox.png
-```
+6. Una vez lanzado el programa, si la ejecución fue correcta, se generará un sub-directorio, llamado **delete-me** donde aparecerán un fichero denominado **print-me.eps**.
+Este es un fichero, en formato PostScript Encapsulado que contiene una hoja con las instrucciones y la imagen que debemos imprimir y colocar dentro de la moneda 3D.
 
 
 > :warning: **ATENCIÓN**
 >
-> Es vital que el usuario final cambie el texto contenido en Entropy.txt por su propio texto secreto.
-> De no hacerlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin.
+> El usuario dispone de 3 minutos para imprimir este fichero.
+> Después, el directorio **delete-me** y todo su contenido se borrará automáticamente, ya que contiene
+> la clave privada con la que se podría acceder a los fondos de la moneda.
+> Si por alguna razón, el borrado automático no funcionase, es **imperativo borrar manualmente** el 
+> directorio **delete-me** y todo su contenido.
+> De no hacerlo así es PRÁCTICAMENTE SEGURO que pierda sus fondos Bitcoin si algún actor malicisioso
+> accediese a la información contenida en este directorio.
 > Este ejemplo solamente se ofrece para que el usuario verifique el funcionamiento del software.
+>
 > En **NINGÚN CASO** se deben generar las monedas reales utilizando este valor de ejemplo.
 
-Para cada moneda, se generan dos ficheros de imagen, que siguen el siguiente formato:
 
-     Coin_XXXX_PRIVATE_Clave-privada.png
-      y
-     Coin_XXXX_PRIVATE_Dirección-pública.png 
-
-Donde:
-
-   - **XXXX** es el número de serie de la moneda, empezando en 0000
-   - **Clave_privada** es la clave privada de la moneda, en formato Base54
-   - **Dirección_pública** es la dirección pública asocaida a la moneda, en formato Base54.
    
-7. Impresión de códigos.
-Para imprimir los códigos, se importarán los ficheros .png en la plantila suministrada, reemplazando ambos códigos en la misma imagen de la moneda.
+## Impresión del fichero _print-me.eps_
 
-La plantilla tiene el nombre ```bertocoin.ai```y contiene un diseño como el que se muestra en la siguiente imagen:
-
-<p align="left">
-  <img src="./imagenes/bertocoin-ai-ejemplo.png">
-</p>
-
-Nota: Deben reemplazarse tanto los códigos QR como los valores correspondientes de las claves en formato texto.
-   
-
-
+La impresión de los códigos contenidos en el fichero
 
 
 
