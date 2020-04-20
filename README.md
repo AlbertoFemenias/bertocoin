@@ -92,7 +92,7 @@ Siga las recomendaciones habituales que se recommiendan para generar claves secr
    ```python2.7 bertocoin.py```
 
 
-     Nota: Es posible especificar varias opciones para conseguir un mayor control sobre la generación de los datos de la moneda. 
+>     Nota: Es posible especificar varias opciones para conseguir un mayor control sobre la generación de los datos de la moneda. 
      Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
 
    ```python2.7 bertocoin.py -h```
