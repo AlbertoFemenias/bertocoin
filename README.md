@@ -29,7 +29,7 @@ Para fabricar tu moneda necesitarás:
      - **pypng** (Utilizado por pyqrcode para generar el fichero png)
 
 
-2. bertocoin.py (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
+2. ```bertocoin.py``` (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
 
 
 ### Hardware
