@@ -123,7 +123,7 @@ Es preciso imprimir esta hoja y recortar la carátula **antes** de iniciar el pr
 
 Una vez impresa y recortada la carátula, se deberá utilizar la lámina transparente de metacrilato y recortar una pieza en forma de hexágono de las mismas dimensiones que la carátula que acabamos de imprimir.
 
-El impresor deberá pausar la impresión de la moneda 3D aproximadamente a la mitad del proceso.
+Se deberá pausar la impresión de la moneda 3D aproximadamente a la mitad del proceso.
 Entonces, se introducirán, en este orden:
 
 1. La pieza hexagonal de metacrilato.
