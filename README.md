@@ -106,6 +106,11 @@ Este es un fichero, en formato Scalable Vector Graphics, que contiene una hoja c
    
 ## Impresión y colocación de la carátula impresa
 
+<p align="left">
+  <img src="./imagenes/modelo.gif">
+</p>
+El modelo imprimible de la moneda se encuetra disponible en este repositorio.
+
 El fichero _print-me.svg_ contiene una carátula recortable que se ha de insertar dentro de la moneda 3D .
 Aquí podemos ver una imagen de un fichero de ejemplo:
 
