@@ -86,8 +86,8 @@ Para ello, pueden utilizarse los siguientes comandos:
 >           python2.7 bertocoin.py -h
        
        
-5. Una vez lanzado el programa, se generará un sub-directorio llamado **delete-me**, donde aparecerá un fichero denominado **print-me.eps**.
-Este es un fichero, en formato PostScript Encapsulado, que contiene una hoja con las instrucciones y la carátula que debemos imprimir y colocar dentro de la moneda 3D.
+5. Una vez lanzado el programa, se generará un sub-directorio llamado **delete-me**, donde aparecerá un fichero denominado **print-me.svg**.
+Este es un fichero, en formato Scalable Vector Graphics, que contiene una hoja con las instrucciones y la carátula que debemos imprimir y colocar dentro de la moneda 3D.
 
 
 > :warning: **ATENCIÓN**
@@ -106,7 +106,7 @@ Este es un fichero, en formato PostScript Encapsulado, que contiene una hoja con
    
 ## Impresión y colocación de la carátula impresa
 
-El fichero _print-me.eps_ contiene una carátula recortable que se ha de insertar dentro de la moneda 3D .
+El fichero _print-me.svg_ contiene una carátula recortable que se ha de insertar dentro de la moneda 3D .
 Aquí podemos ver una imagen de un fichero de ejemplo:
 
 <p align="left">
