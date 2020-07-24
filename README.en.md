@@ -11,48 +11,48 @@ This repository contains instructions, software and CAD models to allow regular 
 A Bitcoin coin is a tangible artifact, shaped as a coin, that allows its owner to store in it an arbitrary amount of bitcoin.
 
 ## History
-Las primeras monedas físicas fueron creadas por Mike Caldwell, bajo el nombre comercial de ["Casacius coins"](https://en.bitcoin.it/wiki/Casascius_physical_bitcoins). Tras un moderado éxito inicial, dejaron de fabricarse en 2013, después de recibir amenazas legales dado que, según el Departamento del Tesoro de EEUU, dichas monedas constituyen un modo de "transmisión de dinero" lo que requiere, según la ley estadounidense, la obtención de licencias específicas. Por este motivo, el creador decidió retirarlas del mercado al considerar que no era rentable la obtención de dichas licencias.
+The first physical coins were created by Mike Caldwell, under the commerecial name of ["Casacius coins"](https://en.bitcoin.it/wiki/Casascius_physical_bitcoins). After a moderate initial success, they were discontinued in 2013, after receiving legal threats due to the fact that, according to the Department of the Treasure of the U.S., those coins constitute a mode of "transmission of money" which requires, in accordance with the U.S. law, obtaining specific licenses. As a result, the creator decided to retire them from the market, considering that obtaining those licenses was not worthwhile.
 
-Posteriormente han aparecido otras ofertas comerciales, la mayoría de las cuales han ido desapareciendo por diversos motivos.
+Later on, there have been some alternate commercial products, most of them have vanished from the market for different reasons.
 
-En consecuencia, en la actualidad no es fácil adquirir una moneda Bitcoin de un proveedor comercial, por lo que surge este proyecto para facilitar la producción de tales monedas al usuario final.
+Due to that, currently is not easy to acquire a Bitcoin coin from a commercial provider. This project is born to empower the end users to create such coins.
 
-## Requisitos
-Para fabricar tu moneda necesitarás:
+## Requisites
+To make your own coin, you will need:
 
 ### Software
-1. Intérprete Python 2.7. 
-   - Dependencias: 
+1. A Python 2.7 interpreter. 
+   - Dependencies: 
 
-     - **ecdsa** (Utilizado para los cálculos criptográficos)
-     - **pyqrcode** (Utilizado para la generación de los códigos QR de la moneda)
-     - **pypng** (Utilizado por pyqrcode para generar el fichero png)
+     - **ecdsa** (Used for crytographical computations)
+     - **pyqrcode** (Used to generate the QR codes of the coin)
+     - **pypng** (Used by pyqrcode to generate png files)
 
 
-2. ```bertocoin.py``` (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
-
+2. ```bertocoin.py``` (in this repository). A script that generates the private/public keys of the coin, as well as their corresponding QR codes.
 
 ### Hardware
-1. Impresora 3D de filamento. 
-Se utiliza para imprimir la carcasa de la moneda. 
-Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o similar es perfectamente válida.
+1. A filament based, 3D printer. 
+Used to print the coin.
 
-    Notas: 
-   - Debido al proceso de colocación de insertos dentro de la moneda, NO se pueden utilizar impresoras de resina.
-   - Se recomienda utilizar plástico PLA.
-   - El diseño está optimizado para un cabezal extrusor de 0.4 mm.
+We used an Anet AB printer, but any Prusa or similar is perfectly valid.
 
-2. Impresora Láser/Inyección de tinta.
-Se puede utilizar cualquier impresora láser de calidad doméstica. Se recomienda utilizar tinta/tóner original y consultar la duración de la impresión en las características técnicas de durabilidad del fabricante.
+    Notes: 
+   - Due to the need to place some inserts during the printing process, resin printers CAN NOT be used.
+   - The recommended material is PLA plastic.
+   - The design is optimized for an extruder head of 0.4 mm.
 
-3. Papel A4.
-Se recomienda utilizar papel blanco o amarillo de oficina con un gramaje de 90 gr/m2 ó superior.
+2. A Laser/Inkjet printer.
+Any domestic-grade printer can be used. However, it is highly recommended to use original ink/toner as well as looking up the durability of the printed material in the documentation of the manufacturer. 
 
-4. Arandela.
-El diseño prevé la inserción de una arandela metálica para darle total opacidad a la clave secreta guardada en el interior.
-La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm.
+3. DIN A4 paper.
+We recommend using white or yellow office paper with a grammage of de 90 gr/m2 or superior.
 
-5. Lámina de metacritalo transparente de 1 mm de espesor.
+4. Washer.
+The design prescribes the insertion of a metallic washer to confer total opacity to the secret key stored inside of the coin.
+The recommended washer has a thickness of 2 mm and an external diameter of 30 mm.
+
+5. Transparent metacrilate laminate of 1 mm of thickness.
 
 ## Uso del software
 
