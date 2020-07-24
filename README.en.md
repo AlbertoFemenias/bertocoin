@@ -1,3 +1,5 @@
+* Read this in other languages: [Spanish](README.md), [English](README.en.md)
+
 # Bertocoin - Your own 3D Bitcoin coin
 Make your own Bitcoin coin using a domestic 3D printer.
 <p align="left">
