@@ -13,7 +13,7 @@ A Bitcoin coin is a tangible artifact, shaped as a coin, that allows its owner t
 ## History
 The first physical coins were created by Mike Caldwell, under the commerecial name of ["Casacius coins"](https://en.bitcoin.it/wiki/Casascius_physical_bitcoins). After a moderate initial success, they were discontinued in 2013, after receiving legal threats due to the fact that, according to the Department of the Treasure of the U.S., those coins constitute a mode of "transmission of money" which requires, in accordance with the U.S. law, obtaining specific licenses. As a result, the creator decided to retire them from the market, considering that obtaining those licenses was not worthwhile.
 
-Later on, there have been some alternate commercial products, most of them have vanished from the market for different reasons.
+Later on, there have been some alternate commercial products. Most of them have vanished from the market for different reasons.
 
 Due to that, currently is not easy to acquire a Bitcoin coin from a commercial provider. This project is born to empower the end users to create such coins.
 
