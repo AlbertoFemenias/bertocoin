@@ -1,3 +1,5 @@
+* Read this in other languages: [Spanish](README.md), [English](README.en.md)
+
 # Bertocoin - Tu propia moneda Bitcoin 3D
 Fabrica tu propia moneda Bitcoin con una impresora 3D doméstica.
 <p align="left">
