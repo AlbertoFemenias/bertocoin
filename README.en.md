@@ -1,16 +1,16 @@
-# Bertocoin - Tu propia moneda Bitcoin 3D
-Fabrica tu propia moneda Bitcoin con una impresora 3D doméstica.
+# Bertocoin - Your own 3D Bitcoin coin
+Make your own Bitcoin coin using a domestic 3D printer.
 <p align="left">
   <img src="./imagenes/albercoin_01.png">
 </p>
 
-## Introducción
-Este repositorio contiene instrucciones, software y modelos CAD diseñados para permitir a un usuario crear sus propias monedas físicas Bitcoin.
+## Introduction
+This repository contains instructions, software and CAD models to allow regular users make their own physical Bitcoin coins.
 
-## Definición
-Una moneda Bitcoin es un dispositivo tangible, con aspecto de moneda, que permite a su poseedor almacenar una cantidad determinada de bitcoins.
+## Definition
+A Bitcoin coin is a tangible artifact, shaped as a coin, that allows its owner to store in it an arbitrary amount of bitcoin.
 
-## Historia
+## History
 Las primeras monedas físicas fueron creadas por Mike Caldwell, bajo el nombre comercial de ["Casacius coins"](https://en.bitcoin.it/wiki/Casascius_physical_bitcoins). Tras un moderado éxito inicial, dejaron de fabricarse en 2013, después de recibir amenazas legales dado que, según el Departamento del Tesoro de EEUU, dichas monedas constituyen un modo de "transmisión de dinero" lo que requiere, según la ley estadounidense, la obtención de licencias específicas. Por este motivo, el creador decidió retirarlas del mercado al considerar que no era rentable la obtención de dichas licencias.
 
 Posteriormente han aparecido otras ofertas comerciales, la mayoría de las cuales han ido desapareciendo por diversos motivos.
