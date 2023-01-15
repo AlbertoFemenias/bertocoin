@@ -1,9 +1,7 @@
-* Read this in other languages: [Spanish](README.md), [English](README.en.md)
-
 # Bertocoin - Tu propia moneda Bitcoin 3D
 Fabrica tu propia moneda Bitcoin con una impresora 3D doméstica.
 <p align="left">
-  <img src="./imagenes/albercoin_01.png">
+  <img src="./images/albercoin_01.png">
 </p>
 
 ## Introducción
@@ -23,21 +21,20 @@ En consecuencia, en la actualidad no es fácil adquirir una moneda Bitcoin de un
 Para fabricar tu moneda necesitarás:
 
 ### Software
-1. Intérprete Python 2.7. 
-   - Dependencias: 
 
-     - **ecdsa** (Utilizado para los cálculos criptográficos)
-     - **pyqrcode** (Utilizado para la generación de los códigos QR de la moneda)
-     - **pypng** (Utilizado por pyqrcode para generar el fichero png)
+Este repositorio alberga la herramienta software que te permitirá crear la moneda.
+Existen dos alternativas para ejecutar el código:
 
+- Ejecutar python dentro de [Docker](#ejecución-con-docker).
 
-2. ```bertocoin.py``` (en este repositorio). Un script que permite la generación de las claves privada/pública de la moneda, así como los códigos QR correspondientes.
+- Ejecutar en local Python 3.11 con la ayuda de [Poetry](#instalación-de-dependencias-con-poetry).
 
+En la sección [*Instalación y uso del software*](#instalación-y-uso-del-software) encontrarás instrucciones detalladas de cómo configurar y utilizar la herramienta.
 
 ### Hardware
 1. Impresora 3D de filamento. 
 Se utiliza para imprimir la carcasa de la moneda. 
-Para este proyecto de utilizó una Anet A8, pero cualquier impresora Prusa o similar es perfectamente válida.
+Para este proyecto se utilizó una Anet A8, pero cualquier impresora Prusa o similar es perfectamente válida.
 
     Notas: 
    - Debido al proceso de colocación de insertos dentro de la moneda, NO se pueden utilizar impresoras de resina.
@@ -56,39 +53,56 @@ La arandela recomendada tiene un diámetro exterior de 30 mm y un grosor de 2 mm
 
 5. Lámina de metacritalo transparente de 1 mm de espesor.
 
-## Uso del software
+## Instalación y uso del software
 
-1. En caso de que el ordenador no cuente con un intérprete de Python 2.7, es preciso comenzar por instalarlo.
-Para ello, siga las instrucciones del fabricante de su sistema operativo.
+### Ejecución con Docker
+La forma más sencilla de ejecutar esta herramienta es creando un container con [Docker](https://www.docker.com/). De esta forma no tenemos que preocuparnos de tener todas las dependencias correctamente instaladas ni la versión de Python actualizada en nuestro sistema.
 
-    Enlaces de descarga: 
-    
-    - [Python 2.70](https://www.python.org/downloads/release/python-270/)
-    - [Otras versiones](https://www.python.org/downloads/)
+Una vez instalado Docker, solo tenemos que:
 
-2. Si no están instalados previamente, se requiere instalar los paquetes de Python **ecdsa**, **pypng** y **pyqrcode**. 
+1. Clonar este repositorio.
 
-Para ello, pueden utilizarse los siguientes comandos:
+2. Crear el contenedor:
+  ```shell
+    $ docker build . -t bertocoin
+  ```
 
-     pip2.7 install ecdsa
-     pip2.7 install pypng
-     pip2.7 install pyqrcode
+3. Ejecutarlo **montando** el directorio del repositorio en el directorio `docker_app` del contenedor:
+  ```shell
+    $ docker run --rm -v $(pwd):/docker_app bertocoin --help
+  ```
 
-3. Descargar el script de este repositorio denominado 'bertocoin.py' en un directorio donde el usuario cuente con permisos de escritura.
-   
-4. Desde ese directorio lanzar el siguiente comando:
+### Instalación de dependencias con Poetry
+Otra alternativa a Docker es instalar en nuestro sistema las dependencias del proyecto y ejecutarlo con [Poetry](https://python-poetry.org/).
 
-   ```python2.7 bertocoin.py```
+Para ello debemos previamente tener instalada la version 3.11 de Python, que utilizaremos posteriormente para instalar Poetry en su versión 1.3.1
 
+Cuando tengamos nuestro entorno configurado, deberemos instalar todas las dependencias con:
 
->           Es posible especificar varias opciones para conseguir un mayor 
->           control sobre la generación de los datos de la moneda. 
->           Para conocer las opciones disponibles, puede ejecutar el siguiente comando:
->
->           python2.7 bertocoin.py -h
+```shell
+$ poetry install
+```
+
+Tras toda esta instalación, por fin podemos ejecutar la herramienta con el comando:
+```shell
+$ poetry run python3 bertocoin --help
+```
+
+> Si el usuario desea prescindir de Poetry, también tiene la alternativa de extraer las dependencias del `pyproject.toml` a un fichero `requirements.txt` para posteriormente instalarlas con *pip3* y ejecutar la herramienta directamente con *python3*.
+
+### Instrucciones de uso
+Tras seguir las instrucciones de instalación (Docker o poetry), solo tenemos que ejecutar:
+
+```shell
+$ docker run --rm -v $(pwd):/docker_app bertocoin
+ó
+$ poetry run python3 bertocoin
+```
+
+Es posible especificar varias opciones para conseguir un mayor control sobre la generación de los datos de la moneda. 
+Para conocer las opciones disponibles, puede ejecutar el comando con el argumento `--help`. 
        
-       
-5. Una vez lanzado el programa, se generará un sub-directorio llamado **delete-me**, donde aparecerá un fichero denominado **print-me.svg**.
+Una vez lanzado el programa, se generará un sub-directorio llamado **delete-me**, donde aparecerá un fichero denominado **print-me.svg**.
 Este es un fichero, en formato Scalable Vector Graphics, que contiene una hoja con las instrucciones y la carátula que debemos imprimir y colocar dentro de la moneda 3D.
 
 
@@ -109,7 +123,7 @@ Este es un fichero, en formato Scalable Vector Graphics, que contiene una hoja c
 ## Impresión y colocación de la carátula impresa
 
 <p align="left">
-  <img src="./imagenes/modelo.gif">
+  <img src="./images/modelo.gif">
 </p>
 El modelo imprimible de la moneda se encuetra disponible en este repositorio.
 
@@ -117,13 +131,13 @@ El fichero _print-me.svg_ contiene una carátula recortable que se ha de inserta
 Aquí podemos ver una imagen de un fichero de ejemplo:
 
 <p align="left">
-  <img src="./imagenes/bertocoin_print-me_ejemplo.png">
+  <img src="./images/bertocoin_print-me_ejemplo.png">
 </p>
 
 La carátula tiene la siguiente forma:
 
 <p align="left">
-  <img src="./imagenes/bertocoin_caratula_ejemplo.png">
+  <img src="./images/bertocoin_caratula_ejemplo.png">
 </p>
 
 Es preciso imprimir esta hoja y recortar la carátula **antes** de iniciar el proceso de impresión 3D de la moneda.
@@ -138,7 +152,7 @@ Entonces, se introducirán, en este orden:
 3. La arandela metálica, que proporciona opacidad a la clave privada, inserta en la moneda, y fija la carátula para asegurar que se mantiene en su sitio al continuar con el proceso de impresión 3D.
 
 <p align="left">
-  <img src="./imagenes/explotado3.png">
+  <img src="./images/explotado3.png">
 </p>
 
 Una vez colocados los tres insertos, se continuará con la impresión de la moneda 3D.
@@ -147,6 +161,5 @@ Para mayor información, descargue y lea atentamente este fichero PDF: "Bertocoi
 
 ## Uso de la moneda
 
-Las instrucciones sobre cómo utilizar la moneda, se encuentran en el siguiente fichero PDF: "Bertocoin - Manual del Usuario".
-
+Las instrucciones sobre cómo utilizar la moneda, se encuentran en el siguiente fichero PDF: [Bertocoin - Manual del Usuario](./resources/Bertocoin_Manual_de_usuario.pdf)
 
